@@ -1,0 +1,38 @@
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin media-sm {
+  @media (min-width: ($sm)) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media (min-width: ($md)) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media (min-width: ($lg)) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media (min-width: ($xl)) {
+    @content;
+  }
+}
+
+//Background Colors
+$bg-color: black;
+
+//Text Colors
+$text-color: white;
+$text-color-dark: black;
+
+//Font-Size
+$base-font-size: 16px;
+
+//Other
+$fade-time: 0.25s;
